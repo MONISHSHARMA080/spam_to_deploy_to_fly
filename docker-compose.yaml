@@ -1,12 +1,14 @@
 services:
   nextjs:
+    # restart: always
+    # command: tail -f /dev/null  
     build:
       context: .
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
     volumes:
-      - ./magic-first-website-next:/app
+      - ./magic-first-website-next:/app/magic-first-website-next
 
   golang_app:
     build:
@@ -16,3 +18,15 @@ services:
       - "4696:4696"
     volumes:
       - ./magic-first-website-next:/go/src/app
+
+
+# services:
+#   magical-first-website-nexxt:
+#     # command: tail -f /dev/null  
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     ports:
+#       - "3000:3000"
+#     volumes:
+#       - ./magic-first-website-next:/app/magic-first-website-next
