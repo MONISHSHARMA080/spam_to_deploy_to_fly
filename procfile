@@ -1,0 +1,2 @@
+web: cd magic-first-website-next; npm install; npm run dev
+web :
