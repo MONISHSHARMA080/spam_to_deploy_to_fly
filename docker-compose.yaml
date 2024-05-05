@@ -1,0 +1,18 @@
+services:
+  nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./magic-first-website-next:/app
+
+  golang_app:
+    build:
+      context: .
+      dockerfile: Dockerfile.go_app
+    ports:
+      - "4696:4696"
+    volumes:
+      - ./magic-first-website-next:/go/src/app

@@ -1,0 +1,38 @@
+# flyctl launch added from magic-first-website-next/.gitignore
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+magic-first-website-next/node_modules
+magic-first-website-next/.pnp
+magic-first-website-next/**/.pnp.js
+magic-first-website-next/**/.yarn/install-state.gz
+
+# testing
+magic-first-website-next/coverage
+
+# next.js
+magic-first-website-next/.next
+magic-first-website-next/out
+
+# production
+magic-first-website-next/build
+
+# misc
+magic-first-website-next/**/.DS_Store
+magic-first-website-next/**/*.pem
+
+# debug
+magic-first-website-next/**/npm-debug.log*
+magic-first-website-next/**/yarn-debug.log*
+magic-first-website-next/**/yarn-error.log*
+
+# local env files
+magic-first-website-next/**/.env*.local
+
+# vercel
+magic-first-website-next/**/.vercel
+
+# typescript
+magic-first-website-next/**/*.tsbuildinfo
+magic-first-website-next/**/next-env.d.ts
+fly.toml
