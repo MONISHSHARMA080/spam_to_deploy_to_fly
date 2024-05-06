@@ -1,0 +1,49 @@
+# fly.toml app configuration file generated for deploy-to-fly-muddy-wildflower-8921 on 2024-05-06T11:47:03+05:30
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921'
+primary_region = 'sin'
+
+[build]
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+
+[[services]]
+  protocol = 'tcp'
+  internal_port = 4696
+
+  [[services.ports]]
+    port = 4696
+    handlers = ['http']
+
+  [services.concurrency]
+    hard_limit = 25
+    soft_limit = 20
+
+[[services]]
+  protocol = 'tcp'
+  internal_port = 3000
+
+  [[services.ports]]
+    port = 3000
+    handlers = ['http']
+
+[services.build]
+    builder = 'golang'
+  [services.build.args]
+    IMPORT_PATH = 'your/import/path'
+  [services.env]
+    GO_ENV = 'production'
+
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1

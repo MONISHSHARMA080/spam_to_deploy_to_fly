@@ -1,0 +1,67 @@
+$ fly logs -a deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921
+
+Waiting for logs...
+
+2024-05-06T06:41:36.306 runner[d8d9567ce10158] sin [info] Pulling container image registry.fly.io/deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921:deployment-01HX6A0YAJS8G0MJPMQS3YPV9Y
+
+2024-05-06T06:41:51.728 runner[d8d9567ce10158] sin [info] Successfully prepared image registry.fly.io/deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921:deployment-01HX6A0YAJS8G0MJPMQS3YPV9Y (15.42238886s)
+
+2024-05-06T06:41:53.457 runner[d8d9567ce10158] sin [info] Configuring firecracker
+
+2024-05-06T06:41:54.372 app[d8d9567ce10158] sin [info] [ 0.057688] PCI: Fatal: No config space access function found
+
+2024-05-06T06:41:54.672 app[d8d9567ce10158] sin [info] INFO Starting init (commit: c1e2693b)...
+
+2024-05-06T06:41:54.697 app[d8d9567ce10158] sin [info] INFO Preparing to run: `docker-entrypoint.sh npm run start` as root
+
+2024-05-06T06:41:54.706 app[d8d9567ce10158] sin [info] INFO [fly api proxy] listening at /.fly/api
+
+2024-05-06T06:41:54.715 app[d8d9567ce10158] sin [info] 2024/05/06 06:41:54 INFO SSH listening listen_address=[fdaa:9:342d:a7b:187:f379:d9ae:2]:22 dns_server=[fdaa::3]:53
+
+2024-05-06T06:41:54.738 runner[d8d9567ce10158] sin [info] Machine created and started in 18.436s
+
+2024-05-06T06:41:55.531 app[d8d9567ce10158] sin [info] > magic-first-website-next@0.1.0 start
+
+2024-05-06T06:41:55.531 app[d8d9567ce10158] sin [info] > next start
+
+2024-05-06T06:41:55.909 app[d8d9567ce10158] sin [info] ▲ Next.js 14.2.3
+
+2024-05-06T06:41:55.910 app[d8d9567ce10158] sin [info] - Local: http://localhost:3000
+
+2024-05-06T06:41:55.910 app[d8d9567ce10158] sin [info] ✓ Starting...
+
+2024-05-06T06:41:56.112 app[d8d9567ce10158] sin [info] ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+
+2024-05-06T06:41:56.180 app[d8d9567ce10158] sin [info] ✓ Ready in 563ms
+
+2024-05-06T06:41:57.923 runner[3d8d909fe11d58] sin [info] Pulling container image registry.fly.io/deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921:deployment-01HX6A0YAJS8G0MJPMQS3YPV9Y
+
+2024-05-06T06:42:12.652 runner[3d8d909fe11d58] sin [info] Successfully prepared image registry.fly.io/deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921:deployment-01HX6A0YAJS8G0MJPMQS3YPV9Y (14.72889876s)
+
+2024-05-06T06:42:13.762 runner[3d8d909fe11d58] sin [info] Configuring firecracker
+
+2024-05-06T06:42:14.479 app[3d8d909fe11d58] sin [info] [ 0.045411] PCI: Fatal: No config space access function found
+
+2024-05-06T06:42:14.787 app[3d8d909fe11d58] sin [info] INFO Starting init (commit: c1e2693b)...
+
+2024-05-06T06:42:14.805 app[3d8d909fe11d58] sin [info] INFO Preparing to run: `docker-entrypoint.sh npm run start` as root
+
+2024-05-06T06:42:14.816 app[3d8d909fe11d58] sin [info] INFO [fly api proxy] listening at /.fly/api
+
+2024-05-06T06:42:14.825 runner[3d8d909fe11d58] sin [info] Machine created and started in 16.907s
+
+2024-05-06T06:42:14.826 app[3d8d909fe11d58] sin [info] 2024/05/06 06:42:14 INFO SSH listening listen_address=[fdaa:9:342d:a7b:f0f:7388:a0c:2]:22 dns_server=[fdaa::3]:53
+
+2024-05-06T06:42:15.558 app[3d8d909fe11d58] sin [info] > magic-first-website-next@0.1.0 start
+
+2024-05-06T06:42:15.558 app[3d8d909fe11d58] sin [info] > next start
+
+2024-05-06T06:42:15.945 app[3d8d909fe11d58] sin [info] ▲ Next.js 14.2.3
+
+2024-05-06T06:42:15.950 app[3d8d909fe11d58] sin [info] - Local: http://localhost:3000
+
+2024-05-06T06:42:15.951 app[3d8d909fe11d58] sin [info] ✓ Starting...
+
+2024-05-06T06:42:16.207 app[3d8d909fe11d58] sin [info] ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+
+2024-05-06T06:42:16.270 app[3d8d909fe11d58] sin [info] ✓ Ready in 639ms

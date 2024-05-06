@@ -1,0 +1,173 @@
+Ready in 639ms
+2024-05-06 12:12:16.000	
+⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+2024-05-06 12:12:15.000	
+✓ Starting...
+2024-05-06 12:12:15.000	
+- Local:        http://localhost:3000
+2024-05-06 12:12:15.000	
+▲ Next.js 14.2.3
+2024-05-06 12:12:15.000	
+> next start
+2024-05-06 12:12:15.000	
+> magic-first-website-next@0.1.0 start
+2024-05-06 12:12:14.000	
+2024/05/06 06:42:14 INFO SSH listening listen_address=[fdaa:9:342d:a7b:f0f:7388:a0c:2]:22 dns_server=[fdaa::3]:53
+2024-05-06 12:12:14.000	
+Machine created and started in 16.907s
+2024-05-06 12:12:14.000	
+ INFO [fly api proxy] listening at /.fly/api
+2024-05-06 12:12:14.000	
+ INFO Preparing to run: `docker-entrypoint.sh npm run start` as root
+2024-05-06 12:12:14.000	
+ INFO Starting init (commit: c1e2693b)...
+2024-05-06 12:12:14.000	
+[    0.045411] PCI: Fatal: No config space access function found
+2024-05-06 12:12:13.000	
+Configuring firecracker
+2024-05-06 12:12:12.000	
+Successfully prepared image registry.fly.io/deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921:deployment-01HX6A0YAJS8G0MJPMQS3YPV9Y (14.72889876s)
+2024-05-06 12:11:57.000	
+Pulling container image registry.fly.io/deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921:deployment-01HX6A0YAJS8G0MJPMQS3YPV9Y
+2024-05-06 12:11:56.000	
+✓ Ready in 563ms
+2024-05-06 12:11:56.000	
+⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+2024-05-06 12:11:55.000	
+✓ Starting...
+2024-05-06 12:11:55.000	
+- Local:        http://localhost:3000
+2024-05-06 12:11:55.000	
+▲ Next.js 14.2.3
+2024-05-06 12:11:55.000	
+> next start
+2024-05-06 12:11:55.000	
+> magic-first-website-next@0.1.0 start
+2024-05-06 12:11:54.000	
+Machine created and started in 18.436s
+2024-05-06 12:11:54.000	
+2024/05/06 06:41:54 INFO SSH listening listen_address=[fdaa:9:342d:a7b:187:f379:d9ae:2]:22 dns_server=[fdaa::3]:53
+2024-05-06 12:11:54.000	
+ INFO [fly api proxy] listening at /.fly/api
+2024-05-06 12:11:54.000	
+ INFO Preparing to run: `docker-entrypoint.sh npm run start` as root
+2024-05-06 12:11:54.000	
+ INFO Starting init (commit: c1e2693b)...
+2024-05-06 12:11:54.000	
+[    0.057688] PCI: Fatal: No config space access function found
+2024-05-06 12:11:53.000	
+Configuring firecracker
+2024-05-06 12:11:51.000	
+Successfully prepared image registry.fly.io/deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921:deployment-01HX6A0YAJS8G0MJPMQS3YPV9Y (15.42238886s)
+2024-05-06 12:11:36.000	
+Pulling container image registry.fly.io/deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921:deployment-01HX6A0YAJS8G0MJPMQS3YPV9Y
+
+
+2024-05-06 12:11:54.000	
+Machine created and started in 18.436s
+
+
+Fields
+
+event.provider	
+runner
+
+fly.app.instance	
+d8d9567ce10158
+
+fly.app.name	
+deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921
+
+fly.region	
+sin
+
+log.level	
+info
+
+message	
+Machine created and started in 18.436s
+
+sort	
+[1714977714000000000]
+2024-05-06 12:11:54.000	
+2024/05/06 06:41:54 INFO SSH listening listen_address=[fdaa:9:342d:a7b:187:f379:d9ae:2]:22 dns_server=[fdaa::3]:53
+2024-05-06 12:11:54.000	
+ INFO [fly api proxy] listening at /.fly/api
+2024-05-06 12:11:54.000	
+ INFO Preparing to run: `docker-entrypoint.sh npm run start` as root
+Fields
+
+event.provider	
+app
+
+fly.app.instance	
+d8d9567ce10158
+
+fly.app.name	
+deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921
+
+fly.region	
+sin
+
+log.level	
+info
+
+message	
+[32m INFO[0m Preparing to run: `docker-entrypoint.sh npm run start` as root
+
+sort	
+[1714977714000000000]
+2024-05-06 12:11:54.000	
+ INFO Starting init (commit: c1e2693b)...
+2024-05-06 12:11:54.000	
+[    0.057688] PCI: Fatal: No config space access function found
+Fields
+
+event.provider	
+app
+
+fly.app.instance	
+d8d9567ce10158
+
+fly.app.name	
+deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921
+
+fly.region	
+sin
+
+log.level	
+info
+
+message	
+[    0.057688] PCI: Fatal: No config space access function found
+
+sort	
+[1714977714000000000]
+2024-05-06 12:11:53.000	
+Configuring firecracker
+Fields
+
+event.provider	
+runner
+
+fly.app.instance	
+d8d9567ce10158
+
+fly.app.name	
+deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921
+
+fly.region	
+sin
+
+log.level	
+info
+
+message	
+Configuring firecracker
+
+sort	
+[1714977713000000000]
+2024-05-06 12:11:51.000	
+Successfully prepared image registry.fly.io/deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921:deployment-01HX6A0YAJS8G0MJPMQS3YPV9Y (15.42238886s)
+2024-05-06 12:11:36.000	
+Pulling container image registry.fly.io/deploy-to-fly-muddy-wildfnjkjrwbfkbrfblower-8921:deployment-01HX6A0YAJS8G0MJPMQS3YPV9Y

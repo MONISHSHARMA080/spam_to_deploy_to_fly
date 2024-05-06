@@ -1,0 +1,14 @@
+   fly console
+Created an ephemeral machine 4d89151f6eed98 to run the console.
+Connecting to fdaa:9:342d:a7b:f0f:9326:eef7:2... complete
+root@4d89151f6eed98:/app# ls
+Dockerfile        app              go.mod         next.config.js   package-lock.json  postcss.config.js   tsconfig.json
+Dockerfile.koyeb  components.json  lib            next.config.mjs  package.json       public
+a.go              fly.toml         next-env.d.ts  node_modules     pages              tailwind.config.ts
+root@4d89151f6eed98:/app# go
+-bash: go: command not found
+root@4d89151f6eed98:/app# go --version
+-bash: go: command not found
+root@4d89151f6eed98:/app# node --version
+v21.6.2
+root@4d89151f6eed98:/app# 

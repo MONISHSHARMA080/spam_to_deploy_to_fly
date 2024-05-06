@@ -83,7 +83,7 @@ func main() {
 
 	fmt.Printf("\n\n  ----------- go version running  -------------\n\n")
 	fmt.Printf("\n\n  ----------- go server listening on port http://localhost:4696   -------------\n\n")
-	err := http.ListenAndServe(":4696", nil)
+	err :=  http.ListenAndServe("localhost:4696", nil)
 	if errors.Is(err, http.ErrServerClosed) {
 		fmt.Printf("server closed\n")
 	} else if err != nil {
