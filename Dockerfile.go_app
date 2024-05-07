@@ -2,14 +2,14 @@ FROM golang:latest AS golangBuild
 # Set the current working directory inside the container
 WORKDIR /app
 # Copy the Go module files
-COPY magic-first-website-next/go.mod go.mod
+COPY webNext/go.mod go.mod
 # 3333
 EXPOSE 4696
 # Download and install Go dependencies
-# VOLUME /home/monish/code/react/magic-first-website-next
+# VOLUME /home/monish/code/react/webNext
 # RUN go mod download
 # Copy the rest of the application source code
-COPY magic-first-website-next/a.go a.go
+COPY webNext/a.go a.go
 # Build the Go app
 RUN go build -o goserver .
 # Expose port

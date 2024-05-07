@@ -1,3 +1,13 @@
+
+volumes:
+  shared-dir:
+    # Define the volume here
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./webNext
+
 services:
   nextjs_app:
     # restart: always
@@ -6,7 +16,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./magic-first-website-next:/app
+      - shared-dir:/app
       - /app/node_modules
     ports:
       - 3000:3000
@@ -18,7 +28,7 @@ services:
     ports:
       - "4696:4696"
     volumes:
-      - ./magic-first-website-next:/go/src/app
+      - shared-dir:/go/src/app
 
 
 # services:
@@ -30,4 +40,4 @@ services:
 #     ports:
 #       - "3000:3000"
 #     volumes:
-#       - ./magic-first-website-next:/app/magic-first-website-next
+#       - ./webNext:/app/webNext

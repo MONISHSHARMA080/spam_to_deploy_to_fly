@@ -7,7 +7,7 @@ FROM base AS deps
 # Check https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine to understand why libc6-compat might be needed.
 WORKDIR /app
 
-COPY magic-first-website-next/package.json magic-first-website-next/yarn.lock* magic-first-website-next/package-lock.json* magic-first-website-next/pnpm-lock.yaml* ./
+COPY webNext/package.json webNext/yarn.lock* webNext/package-lock.json* webNext/pnpm-lock.yaml* ./
 RUN npm install
 
 FROM base AS builder
